@@ -1,12 +1,11 @@
 # Robot Gladiators
 
-    ## Description:
+## Description:
     Play a fun game fighting robots
 
-    ## Licensing:
+## Licensing:
     [![license](https://img.shields.io/badge/license-undefined-blue)](https://shields.io)
-
-    ## Table of Contents 
+## Table of Contents 
     * [Description](#description)
     * [Installation](#installation)
     * [Usage](#usage)
@@ -14,21 +13,21 @@
     * [Testing](#tests)
     * [Additional Info](#additional-info)
 
-    ## Installation:
+## Installation:
     Clone the local repository
 
-    ## Usage:
+## Usage:
     In your free time 
 
-    ## License:
+## License:
     undefined
 
-    ## Contribution:
+## Contribution:
     you could add animation to the robots fighting
 
-    ## Testing:
+## Testing:
     BY PLAYING to see if it all works and that it is random
 
-    ## Questions:
+## Questions:
     - Github: [tessaustin](https://github.com/tessaustin)
     - Email: tessaustin92@gmail.com 

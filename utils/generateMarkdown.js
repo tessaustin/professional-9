@@ -26,7 +26,7 @@ function generateMarkdown(data) {
     * [Usage](#usage)
     * [Contribution](#contribute)
     * [Testing](#tests)
-    * [Additional Info](#additional-info)
+    * [Questions](#questions)
 
     ## Installation:
     ${data.installation}

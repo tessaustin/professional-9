@@ -11,7 +11,7 @@ Play a fun game fighting robots
 * [Usage](#usage)
 * [Contribution](#contribute)
 * [Testing](#tests)
-* [Additional Info](#additional-info)
+* [Questions](#questions)
 
 ## Installation:
 Clone the local repository

@@ -82,55 +82,63 @@ const questions = [
     },
     //Installation
     {
-        type: 'confirm',
-        name: 'confirmInstall',
-        message: 'Would you like to explain how the user would isntall?',
-        default: true
-    },
-    {
         type: 'input',
         name: 'installation',
-        message: 'Provide some information on how the user would install:',
-        when: ({ confirmInstall }) => confirmInstall
+        message: 'How do you install your project? (Required)',
+        //make sure user entered input
+        validate: installationInput => {
+            if (installationInput) {
+                return true;
+            } else {
+                console.log('You must provide installation info!');
+                return false;
+            }
+        }
     },
     //Usage
     {
-        type: 'confirm',
-        name: 'confirmUsage',
-        message: 'Would you like to enter examples and instructions of your project in use?',
-        default: true
-    },
-    {
         type: 'input',
         name: 'usage',
-        message: 'Provide some examples and insturction of your project in use:',
-        when: ({ confirmUsage }) => confirmUsage
+        message: 'How would you use this project? (Required)',
+        //make sure user entered input
+        validate: usageInput => {
+            if (usageInput) {
+                return true;
+            } else {
+                console.log('You must provide how to use the project!');
+                return false;
+            }
+        }
     },
     //Contributing
     {
-        type: 'confirm',
-        name: 'confirmContribute',
-        message: 'Can users contribute to your project?',
-        default: true
-    },
-    {
         type: 'input',
-        name: 'contribute',
-        message: 'Explain how users contribute to your project:',
-        when: ({ confirmContribute }) => confirmContribute
+        name: 'contribution',
+        message: 'How could people contribute to this project? (Required)',
+        //make sure user entered input
+        validate: contributionInput => {
+            if (contributionInput) {
+                return true;
+            } else {
+                console.log('You must provide info. on how others can contribute to the project!');
+                return false;
+            }
+        }
     },
     //Tests
     {
-        type: 'confirm',
-        name: 'confirmTests',
-        message: 'Can users test your project?',
-        default: true
-    },
-    {
         type: 'input',
-        name: 'tests',
-        message: 'Explain how to test your project:',
-        when: ({ confirmTests }) => confirmTests
+        name: 'testing',
+        message: 'How would you test this project? (Required)',
+        //make sure user entered input
+        validate: testingInput => {
+            if (testingInput) {
+                return true;
+            } else {
+                console.log('You must describe how to test this project!');
+                return false;
+            }
+        }
     },
     //Licensing
     {
@@ -156,10 +164,10 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     inquirer.prompt(questions)
-    .then(function (userInput) {
-        console.log(userInput)
-        writeToFile("README.md", generateMarkdown(userInput));
-    });
+        .then(function (userInput) {
+            console.log(userInput)
+            writeToFile("README.md", generateMarkdown(userInput));
+        });
 };
 
 // Function call to initialize app

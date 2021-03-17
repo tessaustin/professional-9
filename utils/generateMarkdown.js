@@ -10,41 +10,41 @@ function renderLicenseLink(license) {}
 // If there is no license, return an empty string
 function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
+// function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+    return `# ${data.title}
+    ## Licensing:
+    [![license](https://img.shields.io/badge/license-${data.licensing}-blue)](https://shields.io)
 
-  ## Description
-  ${data.Description}
+    ## Table of Contents 
+    - [Description](#description)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Contribution](#contribution)
+    - [Testing](#testing)
+    - [Additional Info](#additional-info)
+
+    ## Description:
+    ${data.description}
+
+    ## Installation:
+    ${data.installation}
+
+    ## Usage:
+    ${data.usage}
+
+    ## License:
+    ${data.licensing}
+
+    ## Contribution:
+    ${data.contribution}
+
+    ## Testing:
+    ${data.testing}
+    
+    ## Additional Info:
+    - Github: [${data.github}](https://github.com/${data.github})
+    - Email: ${data.email} `;
+  }
   
-  ## Table of Contents
-  * [Description](#description)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [License](#license)
-  * [Contributors](#contributors)
-  * [Test](#test)
-  * [Questions](#questions)
-  
-  ## Installation 
-  ${data.Installation}
-
-  ## Usage 
-  ${data.Usage}
-
-  ## License
-  ${data.License}
-
-  ## Contributors
-  ${data.Contributors}
-
-  ## Test
-  ${data.Test}
-  
-  ## Questions
-  Contact me:
-  Github:[${data.Username}]
-  Email:[${data.Email}]
-  `;}
-
-module.exports = generateMarkdown;
+  module.exports = generateMarkdown;

@@ -84,7 +84,7 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'How do you install your project? (Required)',
+        message: 'How would you install your project? (Required)',
         //make sure user entered input
         validate: installationInput => {
             if (installationInput) {

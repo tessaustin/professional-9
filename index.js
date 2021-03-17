@@ -6,6 +6,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 // TODO: Create an array of questions for user input
 const questions = [
     {
+        //Github Username
         type: 'input',
         name: 'github',
         message: 'Enter your GitHub Username (Required)',
@@ -20,6 +21,7 @@ const questions = [
         }
     },
     {
+        //Link to Profile
         type: 'input',
         name: 'link',
         message: 'Enter the GitHub link to your profile. (Required)',
@@ -34,6 +36,7 @@ const questions = [
         }
     },
     {
+        //Email Address
         type: 'input',
         name: 'email',
         message: 'Enter your email address. (Required)',
@@ -47,7 +50,7 @@ const questions = [
             }
         }
     },
-    //Project title
+    //Project Title
     {
         type: 'input',
         name: 'name',
@@ -76,6 +79,58 @@ const questions = [
                 return false;
             }
         }
+    },
+    //Installation
+    {
+        type: 'confirm',
+        name: 'confirmInstall',
+        message: 'Would you like to explain how the user would isntall?',
+        default: true
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Provide some information on how the user would install:',
+        when: ({ confirmInstall }) => confirmInstall
+    },
+    //Usage
+    {
+        type: 'confirm',
+        name: 'confirmUsage',
+        message: 'Would you like to enter examples and instructions of your project in use?',
+        default: true
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Provide some examples and insturction of your project in use:',
+        when: ({ confirmUsage }) => confirmUsage
+    },
+    //Contributing
+    {
+        type: 'confirm',
+        name: 'confirmContribute',
+        message: 'Can users contribute to your project?',
+        default: true
+    },
+    {
+        type: 'input',
+        name: 'contribute',
+        message: 'Explain how users contribute to your project:',
+        when: ({ confirmContribute }) => confirmContribute
+    },
+    //Tests
+    {
+        type: 'confirm',
+        name: 'confirmTests',
+        message: 'Can users test your project?',
+        default: true
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'Explain how to test your project:',
+        when: ({ confirmTests }) => confirmTests
     },
 
 ];

@@ -1,34 +1,34 @@
-# undefined
-    
+# Robot Gladiators
+
+    ## Description:
+    Play a fun game fighting robots
+
     ## Licensing:
     [![license](https://img.shields.io/badge/license-undefined-blue)](https://shields.io)
 
     ## Table of Contents 
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contribution](#contribute)
-    - [Testing](#tests)
-    - [Additional Info](#additional-info)
-
-    ## Description:
-    a;dlkfjadiewrlknc;lasdkfjasd;lkfjasdofi ueoijjdkjfndlk oaihfj daoi h;aoeifj ;lkdafoiewjf ldksfjao;iuer ioadsjkfhoaewiu adf
+    * [Description](#description)
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [Contribution](#contribute)
+    * [Testing](#tests)
+    * [Additional Info](#additional-info)
 
     ## Installation:
-    f;la paiofjr alsdkfm;oeiwjr
+    Clone the local repository
 
     ## Usage:
-    ;aldlcm;awiehpoewjfads
+    In your free time 
 
     ## License:
     undefined
 
     ## Contribution:
-    cma;ldf h;aoewpoisdjf,ldnmfo;iawefgjalsdknfcadsl;hfapofwejdasnfasd
+    you could add animation to the robots fighting
 
     ## Testing:
-    adlfkmc;aoweijf
+    BY PLAYING to see if it all works and that it is random
 
     ## Questions:
     - Github: [tessaustin](https://github.com/tessaustin)
-    - Email: a;ldkfjdsal;f 
+    - Email: tessaustin92@gmail.com 

@@ -53,11 +53,11 @@ const questions = [
     //Project Title
     {
         type: 'input',
-        name: 'name',
+        name: 'title',
         message: 'What is the name of your project? (Required)',
         //make sure user entered input
-        validate: nameInput => {
-            if (nameInput) {
+        validate: titleInput => {
+            if (titleInput) {
                 return true;
             } else {
                 console.log('You must enter a project name!');

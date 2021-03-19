@@ -15,38 +15,38 @@ function generateMarkdown(data) {
     return `# ${data.title}
 
 ## Description:
-    ${data.description}
+${data.description}
 
-    ## Licensing:
-    [![license](https://img.shields.io/badge/license-${data.licensing}-blue)](https://shields.io)
+## Licensing:
+[![license](https://img.shields.io/badge/license-${data.licensing}-blue)](https://shields.io)
 
-    ## Table of Contents 
-    * [Description](#description)
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contribution](#contribute)
-    * [Testing](#tests)
-    * [Questions](#questions)
+## Table of Contents 
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribute)
+* [Testing](#tests)
+* [Questions](#questions)
 
-    ## Installation:
-    ${data.installation}
+## Installation:
+${data.installation}
 
-    ## Usage:
-    ${data.usage}
+## Usage:
+${data.usage}
 
-    ## License:
-    ${data.licensing}
+## License:
+${data.licensing}
 
-    ## Contribution:
-    ${data.contribution}
+## Contribution:
+${data.contribution}
 
-    ## Testing:
-    ${data.testing}
+## Testing:
+${data.testing}
 
-    ## Questions:
-    - Github: [${data.github}](https://github.com/${data.github})
-    - Email: ${data.email} 
-    `;
+## Questions:
+- Github: [${data.github}](https://github.com/${data.github})
+- Email: ${data.email} 
+`;
 }
 
 module.exports = generateMarkdown;

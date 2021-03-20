@@ -1,9 +1,9 @@
-# Robot Gladiators
+# meow
 
 ## Description:
-fun interactive game
+rough
 
-## Licensing:
+## License:
 [![license](https://img.shields.io/badge/license-epl-2.0-blue)](https://shields.io)
 
 ## Table of Contents 
@@ -15,20 +15,20 @@ fun interactive game
 * [Questions](#questions)
 
 ## Installation:
-download
+bark
 
 ## Usage:
-in your free time
+cat
 
 ## License:
 epl-2.0
 
 ## Contribution:
-add graphics to actions
+dog
 
 ## Testing:
-by playing
+no non o
 
 ## Questions:
 - Github: [tessaustin](https://github.com/tessaustin)
-- Email: tessaustin92@gmail.com 
+- Email: @gmail.com 

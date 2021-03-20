@@ -1,10 +1,10 @@
 # meow
 
 ## Description:
-rough
+cat
 
-## License:
-[![license](https://img.shields.io/badge/license-epl-2.0-blue)](https://shields.io)
+## Licensing:
+[![License](https://img.shields.io/badge/License-epl%202.0-blue.svg)](https://shields.io)
 
 ## Table of Contents 
 * [Description](#description)
@@ -18,16 +18,16 @@ rough
 bark
 
 ## Usage:
-cat
+dog
 
 ## License:
 epl-2.0
 
 ## Contribution:
-dog
+no
 
 ## Testing:
-no non o
+yes
 
 ## Questions:
 - Github: [tessaustin](https://github.com/tessaustin)

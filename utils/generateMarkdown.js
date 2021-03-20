@@ -12,13 +12,16 @@ function renderLicenseSection(license) { }
 
 // function to generate markdown for README
 function generateMarkdown(data) {
+    var str = data.licensing;
+    var res = str.replace("-", "%20");
+
     return `# ${data.title}
 
 ## Description:
 ${data.description}
 
-## License:
-[![license](https://img.shields.io/badge/license-${data.license}-blue)](https://shields.io)
+## Licensing:
+[![License](https://img.shields.io/badge/License-${res}-blue.svg)](https://shields.io)
 
 ## Table of Contents 
 * [Description](#description)
@@ -35,7 +38,7 @@ ${data.installation}
 ${data.usage}
 
 ## License:
-${data.license}
+${data.licensing}
 
 ## Contribution:
 ${data.contribution}

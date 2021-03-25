@@ -4,7 +4,7 @@
 Create a command-line application that generates a professional README.md. Which than allows the user to devote more time on their project
 
 ## Licensing:
-[![License](https://img.shields.io/badge/License-agpl%203.0-blue.svg)](https://shields.io)
+[![License](https://img.shields.io/badge/License-unlicense-blue.svg)](https://shields.io)
 
 ## Table of Contents 
 * [Description](#description)
@@ -22,7 +22,7 @@ Clone or download through my Github account and ensure you have the inquirer pac
 - Application will start with the following command: node index
 
 ## License:
-agpl-3.0
+unlicense
 
 ## Contribution:
 Contributions are appreciated

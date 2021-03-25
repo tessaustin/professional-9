@@ -18,7 +18,8 @@ Create a command-line application that generates a professional README.md. Which
 Clone or download through my Github account and ensure you have inquirer
 
 ## Usage:
-Application will start with the following command: node index
+- https://drive.google.com/file/d/1t2nGc4dGwD1lwQfPLt5_i9Osz-_9JnQU/view
+- Application will start with the following command: node index
 
 ## License:
 agpl-3.0

@@ -15,7 +15,7 @@ Create a command-line application that generates a professional README.md. Which
 * [Questions](#questions)
 
 ## Installation:
-Clone or download through my Github account and ensure you have inquirer
+Clone or download through my Github account and ensure you have the inquirer package
 
 ## Usage:
 - https://drive.google.com/file/d/1t2nGc4dGwD1lwQfPLt5_i9Osz-_9JnQU/view

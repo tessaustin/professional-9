@@ -1,10 +1,10 @@
-# dog
+# Readme Generator
 
 ## Description:
-rough
+Create a command-line application that generates a professional README.md. Which than allows the user to devote more time on their project
 
 ## Licensing:
-[![License](https://img.shields.io/badge/License-mpl%202.0-blue.svg)](https://shields.io)
+[![License](https://img.shields.io/badge/License-agpl%203.0-blue.svg)](https://shields.io)
 
 ## Table of Contents 
 * [Description](#description)
@@ -15,21 +15,21 @@ rough
 * [Questions](#questions)
 
 ## Installation:
-bark
+Clone or download through my Github account and ensure you have inquirer
 
 ## Usage:
-hello
+Application will start with the following command: node index
 
 ## License:
-mpl-2.0
+agpl-3.0
 
 ## Contribution:
-hi
+Contributions are appreciated
 
 ## Testing:
-okay
+Answer questions and ensure inputs are returned 
 
 ## Questions:
-Please reach me through my Github account or email with any additional questions.
-- Github: [dl;kfjad;lkfjads](https://github.com/dl;kfjad;lkfjads)
-- Email: cat 
+Please reach me through my Github account or my email with any additional questions.
+- Github: [tessaustin](https://github.com/tessaustin)
+- Email: tessaustin92@gmail.com 

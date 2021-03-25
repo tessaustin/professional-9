@@ -1,10 +1,10 @@
-# meow
+# dog
 
 ## Description:
-cat
+rough
 
 ## Licensing:
-[![License](https://img.shields.io/badge/License-epl%202.0-blue.svg)](https://shields.io)
+[![License](https://img.shields.io/badge/License-mpl%202.0-blue.svg)](https://shields.io)
 
 ## Table of Contents 
 * [Description](#description)
@@ -18,17 +18,18 @@ cat
 bark
 
 ## Usage:
-dog
+hello
 
 ## License:
-epl-2.0
+mpl-2.0
 
 ## Contribution:
-no
+hi
 
 ## Testing:
-yes
+okay
 
 ## Questions:
-- Github: [tessaustin](https://github.com/tessaustin)
-- Email: @gmail.com 
+Please reach me through my Github account or email with any additional questions.
+- Github: [dl;kfjad;lkfjads](https://github.com/dl;kfjad;lkfjads)
+- Email: cat 

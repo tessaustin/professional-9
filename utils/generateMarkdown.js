@@ -47,6 +47,7 @@ ${data.contribution}
 ${data.testing}
 
 ## Questions:
+Please reach me through my Github account or my email with any additional questions.
 - Github: [${data.github}](https://github.com/${data.github})
 - Email: ${data.email} 
 `;
